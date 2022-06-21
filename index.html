@@ -20,7 +20,7 @@
 
     <!-- `container` divs automatically provide margins, padding, alignments, etc to html elements -->
 
-    <div class="container">
+    <div class="container p-2">
 
       <h2>Alerts</h2>
 
@@ -110,16 +110,44 @@
       </table>
     </div>
 
+    <!-- pre-created cards & buttons -->
+
     <div class="container p-2">
-      <h2>Buttons</h2>
-      <button type="button" class="btn" onclick="alert('white')">white</button>
-      <button type="button" class="btn btn-primary" onclick="alert('blue')">Primary</button>
-      <button type="button" class="btn btn-secondary" onclick="alert('gray')">Secondary</button>
-      <button type="button" class="btn btn-success" onclick="alert('green')">Success</button>
-      <button type="button" class="btn btn-info" onclick="alert('turquoise')">Info</button>
-      <button type="button" class="btn btn-warning" onclick="alert('yellow')">Warning</button>
-      <button type="button" class="btn btn-danger" onclick="alert('red')">Danger</button>
-      <button type="button" class="btn btn-dark" onclick="alert('black')">Dark</button>
+      <h2>Cards & Buttons</h2>
+
+      <div class="row">
+
+        <div class="card" style="width:300px">
+          <img src="https://media.wired.com/photos/59094a0ad8c8646f38eef2ae/master/pass/rainbow-sq.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Rainbow 1</h4>
+            <p class="card-text">Vertical</p>
+            <button type="button" class="btn btn-primary p-1" onclick="alert('blue')">Primary</button>
+            <button type="button" class="btn btn-secondary p-1" onclick="alert('gray')">Secondary</button>
+          </div>
+        </div>
+
+        <div class="card" style="width:300px">
+          <img src="https://www.mandyartmarket.com/wp-content/uploads/2018/01/rainbow-beverage-napkins-24-8cm-x-24-7cm-rainbow-square-pack-of-1620655972-16948.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Rainbow 2</h4>
+            <p class="card-text">Diagonal</p>
+            <button type="button" class="btn btn-success p-1" onclick="alert('green')">Success</button>
+            <button type="button" class="btn btn-info p-1" onclick="alert('turquoise')">Info</button>
+          </div>
+        </div>
+
+        <div class="card" style="width:300px">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/LGBT_flag_square.svg/1024px-LGBT_flag_square.svg.png" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Rainbow 3</h4>
+            <p class="card-text">Horizontal</p>
+            <button type="button" class="btn btn-danger p-1" onclick="alert('red')">Danger</button>
+            <button type="button" class="btn btn-dark p-1" onclick="alert('black')">Dark</button>
+          </div>
+        </div>
+
+      </div>
     </div>
 
   </body>
