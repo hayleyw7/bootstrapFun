@@ -18,25 +18,33 @@
 
     <!-- pre-created alerts -->
 
-    <div class="alert alert-success">
-      <strong>Success!</strong> Do good things.
-    </div>
-
-    <div class="alert alert-warning">
-      <strong>Warning!</strong> Don't do bad things.
-    </div>
-
-    <div class="alert alert-danger">
-      <strong>Danger!</strong> You did a bad thing.
-    </div>
-
-    <div class="alert alert-primary">
-      <strong>Primary!</strong> Neutral things are acceptable.
-    </div>
-
     <!-- `container` divs automatically provide margins, padding, alignments, etc to html elements -->
 
     <div class="container">
+
+      <h2>Alerts</h2>
+
+      <div class="alert alert-success">
+        <strong>Success!</strong> Do good things.
+      </div>
+
+      <div class="alert alert-warning">
+        <strong>Warning!</strong> Don't do bad things.
+      </div>
+
+      <div class="alert alert-danger">
+        <strong>Danger!</strong> You did a bad thing.
+      </div>
+
+      <div class="alert alert-primary">
+        <strong>Primary!</strong> Neutral things are acceptable.
+      </div>
+
+    </div>
+
+    <div class="container">
+
+      <h2>Columns & Backgrounds</h2>
 
       <!-- responsive columns:  equal-width columns that stack vertically small screens -->
 
@@ -76,28 +84,43 @@
 
     <!-- pre-created table -->
 
-    <table class="table table-striped table-bordered">
-      <thead>
-        <tr>
-          <th>Col 1</th>
-          <th>Col 2</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="text-muted">`text-muted`</td>
-          <td class="text-primary">`text-primary`</td>
-        </tr>
-        <tr>
-          <td class="text-success">`text-success`</td>
-          <td class="text-info">`text-info`</td>
-        </tr>
-        <tr>
-          <td class="text-warning">`text-warning`</td>
-          <td class="text-danger">`text-danger`</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="container p-2">
+      <h2>Table & Text Color</h2>
+      <table class="table table-striped table-bordered">
+        <thead>
+          <tr>
+            <th>Col 1</th>
+            <th>Col 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-muted">`text-muted`</td>
+            <td class="text-primary">`text-primary`</td>
+          </tr>
+          <tr>
+            <td class="text-success">`text-success`</td>
+            <td class="text-info">`text-info`</td>
+          </tr>
+          <tr>
+            <td class="text-warning">`text-warning`</td>
+            <td class="text-danger">`text-danger`</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="container p-2">
+      <h2>Buttons</h2>
+      <button type="button" class="btn" onclick="alert('white')">white</button>
+      <button type="button" class="btn btn-primary" onclick="alert('blue')">Primary</button>
+      <button type="button" class="btn btn-secondary" onclick="alert('gray')">Secondary</button>
+      <button type="button" class="btn btn-success" onclick="alert('green')">Success</button>
+      <button type="button" class="btn btn-info" onclick="alert('turquoise')">Info</button>
+      <button type="button" class="btn btn-warning" onclick="alert('yellow')">Warning</button>
+      <button type="button" class="btn btn-danger" onclick="alert('red')">Danger</button>
+      <button type="button" class="btn btn-dark" onclick="alert('black')">Dark</button>
+    </div>
 
   </body>
 </html>
