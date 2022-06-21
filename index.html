@@ -10,29 +10,42 @@
     <body class="bg-dark">
     <div class="bg-primary text-white p-5 text-center">
       <h1>Bootstrap Fun</h1>
-      <p>Quickstart Test</p> 
+      <p>Resize this page to test the responsiveness of all columns.</p>
     </div> 
 
     <!-- `container` divs automatically provide margins, padding, alignments, etc to html elements -->
 
     <div class="container">
+
+      <div class="row">
+        <div class="col-sm-4 bg-danger text-white p-1">
+          <h2>Box 1</h2>
+          <p>This Box has `bg-danger` background color & `p-1` padding.</p>
+        </div>
+        <div class="col-sm-4 bg-warning text-white p-2">
+          <h2>Box 2</h2>
+          <p>This Box has `bg-warning` background color & `p-2` padding.</p>
+        </div>
+        <div class="col-sm-4 bg-success text-white p-3">
+          <h2>Box 3</h2>
+          <p>This Box has `bg-success` background color & `p-3` padding.</p>
+        </div>        
+      </div>
+
       <div class="row">
         <div class="col-sm-4 bg-danger text-white p-4">
-          <h2>Column 1</h2>
-          <p>This is test sentence A for Column 1. This is test sentence B. This is test sentence C.</p>
-          <p>Resize this page to test the responsiveness of all columns.</p>
+          <h2>Box 4</h2>
+          <p>This Box has `bg-danger` background color & `p-4` padding.</p>
         </div>
-        <div class="col-sm-4 bg-warning text-white p-4">
-          <h2>Column 2</h2>
-          <p>This is test sentence A for Column 2. This is test sentence B. This is test sentence C.</p>
-          <p>Resize this page to test the responsiveness of all columns.</p>
+        <div class="col-sm-4 bg-warning text-white p-5">
+          <h2>Box 5</h2>
+          <p>This Box has `bg-warning` background color & `p-5` padding.</p>
         </div>
-        <div class="col-sm-4 bg-success text-white p-4">
-          <h2>Column 3</h2>
-          <p>This is test sentence A for Column 3. This is test sentence B. This is test sentence C.</p>
-          <p>Resize this page to test the responsiveness of all columns.</p>
+        <div class="col-sm-4 bg-success text-white p-6">
+          <h2>Box 6</h2>
+          <p>This Box has `bg-success` background color & `p-6` padding.</p>
+          <p>Since the `p-6` class doesn't exist in Bootstrap, so the padding defaults to `p-1`.</p>
         </div>
-      </div>
 
     </div>
   </body>
